@@ -64,7 +64,7 @@ label_enemy_hand.place(x = 168, y = 48)
 label_fight = Label(root, text = "じゃんけん！", width = 408, height = 36, image = pixel_virtual, compound = "c")
 label_fight.place(x = 24, y = 200)
 
-# プレイヤーの表示するラベルを、x = 168, y = 266に配置します。サイズは 120 × 120です。
+# プレイヤーの手役を表示するラベルを、x = 168, y = 266に配置します。サイズは 120 × 120です。
 label_player_hand = Label(root, image = image_player_empty, width = 120, height = 120)
 label_player_hand.place(x = 168, y = 266)
 
