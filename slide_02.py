@@ -11,7 +11,7 @@ pixel_virtual = PhotoImage(width=1, height=1)
 button = Button(
   root,
   text = "place test", 
-  image = pixelVirtual,
+  image = pixel_virtual,
   width = 100,
   height = 50,
   compound='c')
